@@ -1,0 +1,126 @@
+.container {
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 70%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.panou1 {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: #e28525;
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.panou2 {
+  background-color: #016972;
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.panou3 {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 33%;
+  background-color: #00403f;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.button1 {
+  border-radius: 25px;
+  color: #e28525;
+  border: 0px;
+  width: 170px;
+  height: 50px;
+}
+
+.button2 {
+  border-radius: 25px;
+  color: #016972;
+  border: 0px;
+  width: 170px;
+  height: 50px;
+}
+
+.button3 {
+  border-radius: 25px;
+  color: #00403f;
+  border: 0px;
+  width: 170px;
+  height: 50px;
+}
+
+.scrissm {
+  color: white;
+  line-height: 30px;
+  font-size: large;
+  margin-top: 40px;
+}
+
+.Scriss {
+  color: white;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.poza {
+  margin-bottom: 32px;
+}
+.button1:hover{
+  cursor: pointer;
+}
+.button2:hover{
+  cursor: pointer;
+}
+.button3:hover{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 724px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+
+  }
+
+  .panou1 {
+    width: auto;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 25px;
+  }
+
+  .panou2 {
+    width: auto;
+  }
+
+  .panou3 {
+    width: auto;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 25px;
+  }
+  .button{
+    padding-bottom: 30px;
+  }
+
+}
